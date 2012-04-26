@@ -1,4 +1,4 @@
-#include "client.h"
+#include <cnik/client.h>
 
 struct Client *clientCreate(const char *nickname, const  char *username, void *channels, const char *server, short unsigned  int port)
 {
@@ -17,27 +17,28 @@ struct Client *clientCreate(const char *nickname, const  char *username, void *c
 
 void clientDestroy(struct Client *client)
 {
-	/* Todo:  Make some fun stuff here */
+	/* TODO:  Make some fun stuff here */
+
 }
 
 void clientConnect(struct Client *client)
 {
-	/* Todo:  Make other fun stuff here */
+	/* TODO:  Make other fun stuff here */
 }
 
 void clientDisconnect(struct Client *client, const char *message)
 {
-	/* Todo:  Some stuff */
+	/* TODO:  Some stuff */
 }
 
 void clientPart(struct Client *client, const char *channel)
 {
-	/* Todo:  I need to learn how to code */
+	/* TODO:  I need to learn how to code */
 }
 
 void clientJoin(struct client *client, const char *channel, const char *password)
 {
-	/* Todo:  Is this done yet? */
+	/* TODO:  Is this done yet? */
 }
 
 void clientSetNick(struct Client *client, const char *nickname)
